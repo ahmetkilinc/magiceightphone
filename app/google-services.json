@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "559986329592",
+    "firebase_url": "https://magiceightphone.firebaseio.com",
+    "project_id": "magiceightphone",
+    "storage_bucket": "magiceightphone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559986329592:android:f403d2f0d74270ec",
+        "android_client_info": {
+          "package_name": "com.gobletsoft.magiceightphone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559986329592-tng09ajtnnmmn9pnjbqpp3hkvvl935n3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gobletsoft.magiceightphone",
+            "certificate_hash": "48872b6e986cb3deb029f0830212da71f84b0c16"
+          }
+        },
+        {
+          "client_id": "559986329592-6tmi9enmoetfvimd24dvr52k17dmhi5m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHfUuVfLo3cmLp5zJVIxYNPMSV9BRhQ2E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559986329592-6tmi9enmoetfvimd24dvr52k17dmhi5m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
