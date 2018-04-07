@@ -1,4 +1,38 @@
 <resources>
     <string name="app_name">Magic Eight Phone</string>
     <string name="banner_ad_unit_id">ca-app-pub-0063127843759701/4285176595</string>
+    <string name="main_information">Ask your question than shake your phone or tab the 8.</string>
+
+    <string name="answer1">It is certain!</string>
+    <string name="answer2">It is decidedly so...</string>
+    <string name="answer3">Without a doubt!</string>
+    <string name="answer4">Yes definitely.</string>
+    <string name="answer5">You may rely on it :)</string>
+    <string name="answer6">As I see it, yes!</string>
+    <string name="answer7">Most likely.</string>
+    <string name="answer8">lol. No way.</string>
+    <string name="answer9">Yep!</string>
+    <string name="answer10">Signs point to yes. You lucky!</string>
+    <string name="answer11">Reply hazy try again :/</string>
+    <string name="answer12">Shake harder and ask again. ihi.</string>
+    <string name="answer13">Ask again later, I need to cool down.</string>
+    <string name="answer14">Better not tell you now. o.O</string>
+    <string name="answer15">Cannot predict now, sorry.</string>
+    <string name="answer16">Concentrate and ask again :|</string>
+    <string name="answer17">Don't count on it.</string>
+    <string name="answer18">My reply is no!</string>
+    <string name="answer19">My sources say no!</string>
+    <string name="answer20">Outlook not so good.</string>
+    <string name="answer21">Very doubtful!</string>
+    <string name="answer22">Maybe, but just maybe.</string>
+    <string name="answer23">Is water wet? Is the Sky Blue?</string>
+    <string name="answer24">Stop it. You know it's not gonna happen.</string>
+    <string name="answer25">I liked what you doin with your hands, #doitagain :#</string>
+    <string name="answer26">OMG, are you really asking? OFC yes!</string>
+    <string name="answer27">Let me ask my master... Nope, sorry.</string>
+    <string name="answer28">What kind of question is that...</string>
+    <string name="answer29">This was the darkest question you ever asked. But yes;)</string>
+    <string name="answer30">All the kittens in the universe say no!, (I asked them all)</string>
+
+
 </resources>

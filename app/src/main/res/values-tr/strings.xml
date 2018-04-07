@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Magic Eight - Sihirli Telefon</string>
+    <string name="main_information">Merak ettiğin soruyu sor ve telefonu salla veya 8 e tıkla.</string>
+    <string name="answer1">Kesinlikle!</string>
+    <string name="answer2">Bu konuda eminim...</string>
+    <string name="answer3">Hiç tereddütsüz!</string>
+    <string name="answer4">Evet, kuşkusuz.</string>
+    <string name="answer5">Buna güven :)</string>
+    <string name="answer6">Anladığım kadarıyla, evet!</string>
+    <string name="answer7">Büyük ihtimalle.</string>
+    <string name="answer8">Ahah. Asla.</string>
+    <string name="answer9">Evvett!</string>
+    <string name="answer10">İşaretler bunuu gösteriyor. Seni şanslı!</string>
+    <string name="answer11">"Cevabı puslu görüyorum, tekrar dene :/ "</string>
+    <string name="answer12">Daha sert salla ve yine sor. ihi.</string>
+    <string name="answer13">Biraz soğumam lazım, biraz sonra tekrar sor.</string>
+    <string name="answer14">Şimdi bir şey söylemesem daha iyi o.O</string>
+    <string name="answer15">Şuan ön göremiyorum :(</string>
+    <string name="answer16">Konstantre olarak tekrar sor :|</string>
+    <string name="answer17">Buna güvenmesen iyi olur.</string>
+    <string name="answer18">Cevebım Hayır!</string>
+    <string name="answer19">Kaynaklarım hayır diyor!</string>
+    <string name="answer20">Durum iyi gözükmüyor.</string>
+    <string name="answer21">Çok ama çok şüpheli!</string>
+    <string name="answer22">Belki, ama sadece belki.</string>
+    <string name="answer23">Su ıslak mıdır? Ateş sıcak mıdır? Tabi ki.</string>
+    <string name="answer24">Hadi ama. Bunun olmayacağını biliyorsun.</string>
+    <string name="answer25">Ellerinle yaptıklarını beğendim, #tekraryap :#</string>
+    <string name="answer26">Oha, gerçekten soruyor musun bunu? KESİNLİKLE!</string>
+    <string name="answer27">Ustama sormama izin ver... Malesef hayır.</string>
+    <string name="answer28">Bu ne biçim bir sorudur yarabbi...</string>
+    <string name="answer29">Şu ana kadar sorduğun en acaip soru buydu. Ama evet;)</string>
+    <string name="answer30">Evrendeki bütün yavru kediler hayır diyor! (hepsine sordum.)</string>
+    <string name="banner_ad_unit_id">ca-app-pub-0063127843759701/4285176595</string>
+</resources>
