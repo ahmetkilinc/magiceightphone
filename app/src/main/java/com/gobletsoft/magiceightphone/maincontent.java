@@ -14,9 +14,6 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.InterstitialAd;
 import com.singh.daman.gentletoast.GentleToast;
 import com.squareup.seismic.ShakeDetector;
 
@@ -27,9 +24,7 @@ import pl.droidsonroids.gif.GifImageView;
 public class maincontent extends AppCompatActivity implements ShakeDetector.Listener{
 
     public String[] answers = new String[30];
-    private AdView mAdView;
     ActionBar actionBar;
-    private InterstitialAd mInterstitialAd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,14 +76,6 @@ public class maincontent extends AppCompatActivity implements ShakeDetector.List
         actionBar = getSupportActionBar();
         actionBar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#1C2331")));
 
-        mAdView = (AdView) findViewById(R.id.adView2);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
-
-        mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("ca-app-pub-0063127843759701/7441769079");
-        mInterstitialAd.loadAd(new AdRequest.Builder().build());
-
         GifImageView giv = findViewById(R.id.gifImageView);
 
         giv.setOnClickListener(new View.OnClickListener() {
@@ -110,18 +97,6 @@ public class maincontent extends AppCompatActivity implements ShakeDetector.List
                                 .show();
 
                 //Toast.makeText(getApplicationContext(), answers[n], Toast.LENGTH_LONG).show();
-
-                if((n == 5) || (n == 10) || (n == 15)){
-
-                    if (mInterstitialAd.isLoaded()) {
-
-
-                        mInterstitialAd.show();
-                    } else {
-
-                        Log.d("TAG", "The interstitial wasn't loaded yet.");
-                    }
-                }
             }
         });
 
@@ -144,16 +119,5 @@ public class maincontent extends AppCompatActivity implements ShakeDetector.List
                 .show();
 
         //Toast.makeText(this, answers[n], Toast.LENGTH_LONG).show();
-
-        if((n == 5) || (n == 10) || (n == 15)){
-
-            if (mInterstitialAd.isLoaded()) {
-
-                mInterstitialAd.show();
-            } else {
-
-                Log.d("TAG", "The interstitial wasn't loaded yet.");
-            }
-        }
     }
 }
